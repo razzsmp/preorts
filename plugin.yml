@@ -1,0 +1,22 @@
+main: diduhless\reports\Reports
+name: Reports
+description: 📢 A reports plugin for pocketmine servers
+author: Didah (@Diduhless)
+website: https://github.com/Diduhless
+version: "4.0.0"
+api: 4.0.0
+commands:
+  report:
+    description: "Hackers should be reported to our wonderful staff."
+    permission: report.cmd
+  reportlist:
+    description: "List all the reported users"
+    permission: reportlist.cmd
+
+permissions:
+  reportlist.cmd:
+    default: op
+    description: List of all reported players
+  report.cmd:
+    default: true
+    description: List of all reported players

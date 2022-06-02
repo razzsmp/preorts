@@ -1,0 +1,14 @@
+# Players will have to wait this amount of seconds to send another report
+report.cooldown: 20
+
+
+# These reasons will be shown on the /report form
+report.reasons:
+  - "Cheating"
+  - "Advertising"
+  - "Spamming"
+  - "Other"
+
+# This allow you to send the report to discord
+webhook.enable: false
+webhook.url: ""
